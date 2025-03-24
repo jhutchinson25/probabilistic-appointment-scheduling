@@ -1,0 +1,16 @@
+site_name: Centra Scheduling Documentation
+
+# Add mkdocstrings plugin
+plugins:
+  - mkdocstrings:
+      default_handler: python
+
+theme:
+  name: readthedocs
+
+#markdown_extensions:
+#  - myst_parser
+
+extra:
+  paths:
+    - ../centra-task-sequencing
